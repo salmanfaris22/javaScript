@@ -1,0 +1,30 @@
+.new{
+    width: 200px;
+   
+   
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+  
+      
+
+
+    
+}
+.box2{
+    background-color: cadetblue;
+    min-height: 100px;
+}
+.box3{
+    background-color: red;
+    min-height: 200px;
+}
+.box1{
+    background-color: black;
+    min-height: 300px;
+}
