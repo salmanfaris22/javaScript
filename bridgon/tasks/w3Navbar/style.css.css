@@ -1,28 +1,33 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-.nav-text{
+
+.nav-text {
     display: flex;
 
     font-size: 25px;
     margin-left: 30px;
 }
-.item:hover{
+
+.item:hover {
     background: #04AA6D;
 }
-.nav-bar{
-   
-  
-  height:90px;
+
+.nav-bar {
+
+
+    height: 90px;
     display: flex;
 }
-.item{
+
+.item {
     display: flex;
     align-items: center;
     padding: 30px;
 }
-.img{
+
+.img {
     width: 70px;
     height: 50px;
     margin-top: 20px;
@@ -30,18 +35,24 @@
     align-items: center;
 
 }
-.arrow{
+
+.arrow {
     width: 20px;
-   
+
 }
-.nav-btn{
+
+.nav-btn {
     display: flex;
     width: 100%;
-     margin-right: 20px;    
+    margin-right: 20px;
 
 }
 
-.sign-up{
+
+
+/* LOGIN ARIA */
+
+.sign-up {
     background: #04A86F;
     width: 100px;
     height: 50px;
@@ -51,43 +62,52 @@
     align-items: center;
 
 }
- .log-in{
- 
+
+.sign-up:hover {
+    background: #03704a;
+}
+
+.log-in {
+
     width: 100px;
     height: 50px;
     display: flex;
     border-radius: 50px;
     justify-content: center;
     align-items: center;
- }
+}
 
- .login{
+.login {
     width: 10px;
-    
+
     display: flex;
     align-items: center;
     justify-content: end;
     width: 100%;
 
-  
- }
- .login-btn{
+
+}
+
+.login-btn {
     display: flex;
-      align-items: center;
-      background: #D9EDE1;
-      border-radius: 50px;
-      font-size: 20px;
-      color: white;
+    align-items: center;
+    background: #D9EDE1;
+    border-radius: 50px;
+    font-size: 20px;
+    color: white;
+}
+
+.login-btn:hover {
+    background: #99e7b8;
 }
 
 
-
-nav{
+nav {
     display: flex;
-    
+
 }
 
-.btns{
+.btns {
     display: flex;
     align-items: center;
     justify-content: end;
@@ -97,7 +117,7 @@ nav{
 
 }
 
-.btns-new{
+.btns-new {
     height: 20px;
     min-width: 40px;
     font-weight: bold;
@@ -110,87 +130,42 @@ nav{
     justify-content: center;
 }
 
-.home{
+.btn1 {
+    background: #282A36;
+    color: rgb(255, 255, 255);
+}
+
+.btn1:hover {
+    background-color: #313447;
+
+}
+
+.btn2 {
+    background-color: #FFBFC7;
+}
+
+.btn2:hover {
+    background: #ffd8dc;
+    ;
+
+}
+
+.btn3 {
+    background-color: #FFF3A5;
+}
+
+.btn3:hover {
+    background-color: #fff8cd;
+}
+
+.home {
     width: 30px;
     height: 30px;
     margin-left: 10px;
-    
-}
-.secon-nav{
-   height: 40px;
-   justify-content: space-between;
-}
-
-.secondery-nav{
-    display: flex;
-    align-items: center;
-    max-height: 20px;
-    font-size: 20px;
-    color: white;
 
 }
 
-.secondry-nav-item{
-    
-    height: 100%;
-    align-items: center;
-    padding: 10px;
-    margin-top: 22px;
-    display: flex;
-   font-size: 15px;
-    
-}
-
-.secondry-nav-item:hover{
-    background-color: #04AA6D;
-}
-
-.secondery-icon{
-    display: flex;
-    margin-top: 10px;
-   
-   
-}
-
-.secondery-icon-end{
-    display: flex;
-    align-items: center;
-  margin-top: 25px;
-  gap: 30px;
-  margin-right: 20px;
-  padding: 10px;
-
-    
-}
-.secondery-icons{
-   
-    height: 20px;
-    height: 40px;
- 
-    align-items: center;
-    justify-content: center;
-    
-    
-}
-
-.secondery-icons:hover{
-   background: #04AA6D;;
-
-    
-    
-}
-
-.icons{
-    width: 20px;
-    height: 20px;
-    padding: 10px;
-    margin-left: 10px;
-
-}
-
-.icons:hover{    background: #04AA6D;}
-
-
+/* serch area */
 
 
 
@@ -203,66 +178,161 @@ nav{
 
 .serch-area {
     width: 100%;
-    padding: 10px 10px 10px 10px; /* Adjust padding to make room for the icon */
+    padding: 10px 10px 10px 10px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
-   border-radius: 50px;
+    border-radius: 50px;
 }
-.serch-area:focus{
-    border: 3px  solid #04AA6D; ;
-  
+
+.serch-area:focus {
+    border: 3px solid #04AA6D;
+    ;
+
 }
+
 .serch-icon {
     position: absolute;
-    
-     right: 0;
+
+    right: 0;
     top: 45%;
     transform: translateY(-50%);
     width: 20px;
     height: 20px;
-    pointer-events: none; /* Ensures the icon does not block input field events */
+    pointer-events: none;
 }
 
 
-.serch-main{
-margin-top: 25px;  
+.serch-main {
+    margin-top: 25px;
 }
 
 
-@media only screen and (max-width: 1600px) { 
-  .btns{
-    display: none;
-  }
-} 
 
-@media only screen and (max-width: 1350px) { 
-    .secondery-icon-end {
-      display: none;
 
-    }
-    .ites{
+/* secondry navbar */
+
+.secon-nav {
+    height: 40px;
+    justify-content: space-between;
+}
+
+.secondery-nav {
+    display: flex;
+    align-items: center;
+    max-height: 20px;
+    font-size: 20px;
+    color: white;
+
+}
+
+.secondry-nav-item {
+
+    height: 100%;
+    align-items: center;
+    padding: 10px;
+    margin-top: 22px;
+    display: flex;
+    font-size: 15px;
+
+}
+
+.secondry-nav-item:hover {
+    background-color: #04AA6D;
+}
+
+.secondery-icon {
+    display: flex;
+    margin-top: 10px;
+
+
+}
+
+.secondery-icon-end {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 30px;
+    margin-right: 20px;
+    padding: 10px;
+
+
+}
+
+.secondery-icons {
+
+    height: 20px;
+    height: 40px;
+
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.secondery-icons:hover {
+    background: #04AA6D;
+    ;
+
+
+
+}
+
+.icons {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    margin-left: 10px;
+
+}
+
+.icons:hover {
+    background: #04AA6D;
+}
+
+
+
+
+
+/* resposive  */
+
+@media only screen and (max-width: 1600px) {
+    .btns {
         display: none;
     }
-  } 
-  @media only screen and (max-width: 1066px) { 
+}
+
+@media only screen and (max-width: 1350px) {
     .secondery-icon-end {
-      display: none;
+        display: none;
 
     }
-    .ites{
+
+    .ites {
         display: none;
     }
-  } 
+}
 
-  @media only screen and (max-width: 788px) { 
-   .serch-main{
-    display: none;
-   }
-  } 
+@media only screen and (max-width: 1066px) {
+    .secondery-icon-end {
+        display: none;
+
+    }
+
+    .ites {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 788px) {
+    .serch-main {
+        display: none;
+    }
+}
 
 
-  @media only screen and (max-width: 510px) { 
-    .nav-btn{
-     display: none;
-    }}
+@media only screen and (max-width: 510px) {
+    .nav-btn {
+        display: none;
+    }
+}
