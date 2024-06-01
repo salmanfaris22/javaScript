@@ -322,17 +322,43 @@ nav {
     .ites {
         display: none;
     }
+    .secon-nav{
+        overflow: hidden;
+     
+    }
 }
 
 @media only screen and (max-width: 788px) {
     .serch-main {
         display: none;
+
+    }
+    .secon-nav{
+        overflow: hidden;
+     
     }
 }
 
 
 @media only screen and (max-width: 510px) {
     .nav-btn {
-        display: none;
+        
+    }
+    .sign-up{
+       display: none;
+      
+    }
+    .log-in{
+        background-color: #04A86F;
+    }
+    .log-in:hover{
+        background-color: #05724c;
+    }
+  
+    .secon-nav{
+        overflow: auto;
+        height: 60px;
     }
 }
+
+
