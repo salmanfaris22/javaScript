@@ -1,0 +1,27 @@
+.boxes{
+   margin-top: 100px;
+    height: 320px;
+    background: #edebe9;
+}
+
+.box-text{
+    display: flex;
+
+    margin: 15px 60px 0px 55px;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding: 10px;
+}
+
+.box{
+    width: 430px;
+    height: 160px;
+    background:rgb(255, 255, 255);
+    border-radius: 7px;
+}
+.box-controll{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 40px 0px 60px;
+}
