@@ -61,11 +61,17 @@
     border-radius: 50px;
     justify-content: center;
     align-items: center;
+    transition: 1s;
+
+    
+
+  
 
 }
 
 .sign-up:hover {
     background: #03704a;
+    width: 150px;
 }
 
 .log-in {
