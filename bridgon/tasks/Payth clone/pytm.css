@@ -102,7 +102,7 @@ li:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 900px;
+    height: 500px;
     width: 50%;
     justify-content: end;
 
@@ -160,7 +160,7 @@ p {
 .big-img {
 
 
-    height: 550px;
+    height: 450px;
     top: 50%;
 
 
@@ -207,9 +207,10 @@ p {
     padding: 0px 0px 0px 5%;
     display: flex;
     width: 100%;
-    height: 80vh;
+    height: 70vh;
+  
     justify-content: center;
-    align-items: center;
+    align-items: end;
 }
 
 .img {
