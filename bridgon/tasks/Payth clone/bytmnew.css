@@ -5,12 +5,22 @@
     display: flex; 
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+
+    justify-content: space-around;
+}
+.pyment-detialas{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-around;
+    width: 73%;
 }
 .pyment-items{
     display: flex;
-    justify-content: space-around;
-    width: 70%;
+    justify-content: space-between;
+    width: 95%;
+    padding: 0px 0px 0px 20px;
   
 
 }
@@ -25,6 +35,17 @@
    font-size: 15px;
    font-family: Inter, sans-serif;
     
+}
+.pyment-item-test{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.pyment-head{
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Inter, sans-serif;
 }
 body{
     height: 300vh;
