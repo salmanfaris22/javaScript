@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
     list-style: none;
-   
-    box-sizing: border-box;
 
+    box-sizing: border-box;
 }
 
+
+
+/* Navbar */
 header {
     position: fixed;
     width: 100%;
@@ -21,33 +23,29 @@ header {
     font-family: Inter, sans-serif;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     gap: 40px;
-   
-}
-.logo{
-   
-}
-
-ul{
-   
 
 }
 
-li{
- 
-     padding: 10px;
-    display:flex ;
+
+
+li {
+
+    padding: 10px;
+    display: flex;
     justify-content: center;
     align-items: center;
 
 }
-li:hover{
+
+li:hover {
     background-color: rgb(240, 240, 240);
     border-radius: 3px;
 }
+
 .hamburger {
     display: none;
-   
-    
+
+
 }
 
 .nav-bar ul {
@@ -55,13 +53,15 @@ li:hover{
 
     height: 60px;
     align-items: center;
-  width: 770px;
-  justify-content: space-around;
+    width: 770px;
+    justify-content: space-around;
 }
-.nav-bar ul li{
+
+.nav-bar ul li {
     display: block;
 }
-.sign-in{
+
+.sign-in {
     min-width: 110px;
     background-color: rgb(0, 195, 255);
     display: flex;
@@ -74,48 +74,48 @@ li:hover{
     font-size: 15px;
     font-family: Inter, sans-serif;
     margin-left: 40px;
- 
-      
 
-    
+
 }
 
-.login-logo{
-   width: 35px;
-   background-color: rgb(9, 9, 136);
-    border-radius: 100%;
-    
-}
-.sign-in:hover{
+.login-logo {
+    width: 35px;
     background-color: rgb(9, 9, 136);
-    .login-logo{
-        background-color: rgb(0, 195, 255);
-         
-     }
+    border-radius: 100%;
+
 }
 
-.container{
-   
+.sign-in:hover {
+    background-color: rgb(9, 9, 136);
+
+    .login-logo {
+        background-color: rgb(0, 195, 255);
+
+    }
+}
+
+/* Body Parts */
+.container {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 900px;
     width: 50%;
     justify-content: end;
- 
-   
-   
-    
+
 }
-.pytm-logo{
+
+.pytm-logo {
     width: 80px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;
-    
-    
+
+
 }
-.body-left{
-    
+
+.body-left {
+
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -123,56 +123,42 @@ li:hover{
 
     width: 700px;
 
-    
-   
 }
-.text{
- 
+
+.text {
+
     height: 200px;
     display: flex;
-    
+
     flex-direction: column;
     justify-content: space-around;
 }
-h1{
+
+h1 {
     font-family: Inter, sans-serif;
     font-size: 50px;
     font-weight: 700;
 
 }
-p{
-      font-family: Inter, sans-serif;
-    font-size:20px;
-    margin-top:20px ;
-   
-    
-}
 
-.side{
-    
-}
-.img{
-   
-}
+p {
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
 
-.big-img{
 
-    
- height: 550px;
- top:50%;
- 
-  
-
-  
- 
-
-    
 }
 
 
+.big-img {
 
 
-.btn{
+    height: 550px;
+    top: 50%;
+
+}
+
+.btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -185,21 +171,23 @@ p{
     padding: 2px 26px 2px 25px;
 }
 
-.btn-logo{
-width: 18px;
+.btn-logo {
+    width: 18px;
 
 
 }
-.btn:hover{
-  color: black;
-  background-color: white;
- .btn-logo{
-    filter: invert(100%) brightness(0%) contrast(100%);
- }
+
+.btn:hover {
+    color: black;
+    background-color: white;
+
+    .btn-logo {
+        filter: invert(100%) brightness(0%) contrast(100%);
+    }
 
 }
 
-.container-main{
+.container-main {
     padding: 0px 0px 0px 5%;
     display: flex;
     width: 100%;
@@ -207,7 +195,7 @@ width: 18px;
     align-items: center;
 }
 
-.img{
+.img {
     width: 50%;
     display: flex;
     justify-content: end;
@@ -215,123 +203,69 @@ width: 18px;
 
 
 
-
-
-
-
-
-
+/* Media QUry */
 
 @media only screen and (max-width: 1160px) {
- .logo{
-    
- }
+    .logo {}
 
- 
+    h1 {
 
-
- h1{
- 
-    font-size: 30px;
+        font-size: 30px;
 
 
-}
-p{
-      font-family: Inter, sans-serif;
-    font-size:12px;
-    margin-top:0px ;
-    
-}
-
-.body-left{
-    
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    width: 700px;
-
-    
-   
-}
-
-    .text{
- 
-        height: 150px;
-       
     }
 
-  }
+    p {
+        font-family: Inter, sans-serif;
+        font-size: 12px;
+        margin-top: 0px;
 
+    }
 
+    .body-left {
 
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
 
+        width: 700px;
 
+    }
 
+    .text {
 
+        height: 150px;
 
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-@media only screen and (max-width: 900px) {
-
-
-  
-
-
-
-
-
-
-
-
-header{
-    display: flex;
-    justify-content: space-around;
-    
-    
 }
 
+@media only screen and (max-width: 900px) {
+    header {
+        display: flex;
+        justify-content: space-around;
 
 
-
+    }
 
     .hamburger {
         display: flex;
         flex-direction: column;
-       position: absolute;
-       left: 10px;
-       
+        position: absolute;
+        left: 10px;
+
         height: 30px;
         justify-content: space-around;
         cursor: pointer;
 
     }
-    .sign-in{
+
+    .sign-in {
         position: absolute;
         right: 10px;
-        
-        
+
+
     }
 
     .line {
@@ -342,15 +276,8 @@ header{
     }
 
     .nav-bar {
-    display: none;
-    
+        display: none;
+
     }
 
-
- 
-    
-
-    
-
-    
 }
