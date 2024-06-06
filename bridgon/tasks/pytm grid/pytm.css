@@ -185,9 +185,7 @@ p {
     margin: auto;
 }
 
-.pyment-item {
-    
-}
+
 
 .h1 {
     font-size: 36px;
@@ -224,9 +222,7 @@ p {
 .pyment-icon {
     width: 65px;
 }
-.a{
-    
-}
+
 .pyment-item-test {
     display: flex;
     font-family: Inter, sans-serif;
@@ -247,7 +243,7 @@ p {
 
 .pay {
     overflow: hidden;
-    background-attachment: scroll;
+  
     background-color: rgb(245, 247, 250);
     color: rgb(0, 0, 0);
     display: block;
@@ -259,11 +255,11 @@ p {
     margin: auto;
     padding-top: 120px;
     position: relative;
-    text-rendering: optimizelegibility;
+   
     text-size-adjust: 100%;
-    unicode-bidi: isolate;
+
     width: 1379px;
-    -webkit-font-smoothing: antialiased;
+
 }
 
 .pay-text {
@@ -288,14 +284,11 @@ p {
     font-size: 14px;
     font-weight: 400;
     height: 627px;
-    margin-bottom: 0px;
-    margin-left: 104.5px;
-    margin-right: 104.5px;
-    margin-top: 0px;
+    margin: 0px 104.5px 104.5px 0px;
     position: relative;
-    text-rendering: optimizelegibility;
+
     text-size-adjust: 100%;
-    unicode-bidi: isolate;
+
     width: 1170px;
     z-index: 1;
 }
