@@ -1,6 +1,3 @@
-
-
-
 let n = prompt("How many elment the array")
 let arr=[]
 
@@ -10,17 +7,13 @@ for(let i=0;i<n;i++){
   arr[i]=Number(number)
 }
 
-let num = prompt ("enter the removing element the array")
 
 
 
-
-let a=[]
-let k=0;
-for(let i=0;i<n;i++){
-   if(arr[i] != num){
-    a[k]=arr[i]
-    k++;
-   }
+let x=0;
+for(let i=0;i<6;i++){
+    if(arr[i]>x){
+        x=arr[i]
+    }
 }
-console.log(a)
+console.log("the largest elements is" + x)
