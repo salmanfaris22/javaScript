@@ -1,14 +1,14 @@
 
+
+
+
 let arr=[]
-let n = prompt("How many elment the aaarray")
+let n = prompt("How many elment the aray")
 
 for(let i=0;i<n;i++){
   let number= prompt(`enter the number ${i+1} position`)
   arr[i]=Number(number)
 }
-
-
-
 
 let x=0;
 for(let i=0;i<6;i++){
