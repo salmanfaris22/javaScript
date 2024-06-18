@@ -1,5 +1,3 @@
-a= [1,2,3,4,5]
+a = [1,2,3,4,5,6,7,8]
 
-for(x of a){
-    console.log(x)
-}
+console.log(a.copyWithin(1,5))

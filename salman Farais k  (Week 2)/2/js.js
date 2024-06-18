@@ -2,7 +2,7 @@ function middleChar(str){
    b=str.length
    var c =0
    var p = ""
-   if(b%2 ==0){
+   if(b%2 == 0){
     p+= str[b/2-1]
     p+=str[b/2]
      return p
@@ -13,4 +13,6 @@ function middleChar(str){
    }
 }
 
-console.log(middleChar("ABC"))
+
+
+console.log(middleChar("ABCD"))
