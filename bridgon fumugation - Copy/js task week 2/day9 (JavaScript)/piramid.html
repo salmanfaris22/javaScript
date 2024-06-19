@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var patern = ""
+        let n = 4
+        for (let i = 1; i <= n; i++) {
+            for (var k = 1; k <= n - i; k++) {
+                patern += " " + " "
+            }
+            for (var j = 1; j <= i * 2 - 1; j++) {
+                patern += "* "
+            }
+            patern += "\n"
+        }
+        console.log(patern)
+    </script>
+</body>
+
+</html>

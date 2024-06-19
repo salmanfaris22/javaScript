@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>From</title>
+  </head>
+  <body>
+    <style>
+      h1 {
+        text-align: center;
+        font-size: 25px;
+      }
+
+      .center {
+        display: block;
+        margin: 0 auto;
+      }
+    
+      
+
+    </style>
+    <div style="display: flex; justify-content: center; text-align: center;">
+      <div>
+
+                <!-- Persnal detailes -->
+
+        <h1 style="color: red">Persnal Details</h1>
+
+        <form id="myform">
+          <div>
+               <label>Name : </label>             <input  type="text" />                       <br /><br />
+               <label>Password : </label>         <input type="password" />                   <br /><br />
+               <label>E-mail id : </label>        <input type="email" />                      <br /><br />
+               <label>Gender : </label>          <label> <input type="radio" name="gender" /> Male</label>
+                                                 <label> <input type="radio" name="gender" />Female </label> <br /><br />
+  
+ <br><br>
+               <label>Contact : </label>          <input type="number" />
+          </div>
+
+
+
+               <!-- Educationam Qualification -->
+
+          
+          <h1 style="color: red">Educationam Qualification</h1>
+          <br />
+          <label>Dgree : </label>
+          <select>
+            <option value="" selected disabled hidden>--Select Group--</option>
+            <option value="Bsc">Bsc</option>
+            <option value="BCA">BCA</option>
+            <option value="Bcom">Bcom</option>
+            <option value="Other">Other</option>
+          </select>
+          <br /><br />
+
+          <label>Engineering : </label>
+          <select>
+            <option value="" selected disabled hidden>--Select Gruop--</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="B.Tech Cs">B.Tech Cs</option>
+            <option value="It">It</option>
+          </select>
+
+          <br /><br />
+          <label>Hobbies :</label> <input type="checkbox" name="hobbies" id="chess" /><label for="chess">Playing chess</label>
+          <input type="checkbox" name="hobbies" id="book" /><label for="book">Reading Books</label>
+
+          <br /><br />
+
+
+             
+          <!-- Adress -->
+
+
+          <h1 style="color: red">Adress</h1>
+
+          <div>
+            <textarea class="center" rows="6" cols="35"></textarea>
+          </div>
+
+          <br /><br />
+          <label>Attach resum : </label><input type="file" /> <br /><br />
+
+          <input type="Submit"  value="submit" onclick="submitButton()"/> <input type="Reset" value="reset"  onclick="resetButton()"/>
+          
+
+
+
+        </form>
+
+
+        <!-- script for submit and reset button -->
+
+        <script>
+          function submitButton(){
+            document.getElementById("myfrom").submit();
+           
+  
+          }
+          function resetButton(){
+            document.getElementById("myform").reset();
+          }
+               
+        </script>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+    <script>
+ 
+let num1 = (prompt("Enter first number: "));
+let num2 = (prompt("Enter second number: "));
+let num3 = (prompt("Enter third number: "));
+
+num1=Number(num1)
+num2=Number(num2)
+num3=Number(num3)
+
+let largest;
+     if(num1>= num2 && num1>= num3){
+        document.getElementById('demo').innerHTML = num1 +'is bigger number'
+     }else if(num2>=num1 && num2>=num3){
+       document.getElementById('demo').innerHTML = num2 +'is bigger number'
+     }else{
+        document.getElementById('demo').innerHTML = num3 +'is bigger number'
+     }
+
+     
+    </script>
+</body>
+</html>

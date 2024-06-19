@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>cheak grade</p>
+    <button onclick="cheak()">Cheack</button>
+    <p id="demo"></p>
+
+
+    <script>
+        function cheak(){
+            var mark = prompt("enter mark")
+            mark =Number(mark)
+            
+     if(mark>=90){
+        document.getElementById('demo').innerHTML="your grade"+" "+"S grade" 
+     }else if(mark>=80){
+        document.getElementById('demo').innerHTML="your grade"+" "+"A grade"
+     }else if(mark>=70){
+        document.getElementById('demo').innerHTML="your grade"+" "+"B grade"
+     }else if(mark>=60){
+        document.getElementById('demo').innerHTML="your grade"+" "+"C grade"
+     }else if(mark>=50){
+        document.getElementById('demo').innerHTML="your grade"+" "+"D grade"
+     }else if(mark>=40){
+        document.getElementById('demo').innerHTML="your grade"+" "+"E grade"
+     }else if(mark>=0){
+        document.getElementById('demo').innerHTML="Student has failed"
+     }else{
+        document.getElementById('demo').innerHTML="Invalid marks"
+     }
+        }
+
+
+    </script>
+</body>
+</html>
